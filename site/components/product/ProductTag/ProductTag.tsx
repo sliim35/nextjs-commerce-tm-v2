@@ -29,6 +29,7 @@ const ProductTag: React.FC<ProductTagProps> = ({
         </span>
       </h3>
       <div className={s.price}>{price}</div>
+      <button className={s.price}>Buy</button>
     </div>
   )
 }
